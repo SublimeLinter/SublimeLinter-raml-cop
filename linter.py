@@ -17,7 +17,7 @@ class RamlCop(Linter):
 
     """Provides an interface to raml-cop."""
     defaults = {
-        "selector": "source.RAML"
+        "selector": "source.raml"
     }
 
     # syntax = 'raml'
