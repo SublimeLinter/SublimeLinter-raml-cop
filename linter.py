@@ -20,13 +20,14 @@ class RamlCop(Linter):
         "selector": "source.raml"
     }
 
-    # syntax = 'raml'
     cmd = 'raml-cop --no-color --no-includes'
-    version_requirement = '>= 5.0.0'
+
     regex = (
         r'^\[.+:(?P<line>\d+):(?P<col>\d+)\] '
         r'(?:(?P<error>ERROR)|(?P<warning>WARNING)) '
         r'(?P<message>.+)'
     )
+
     line_col_base = (0, 0)
+
     tempfile_suffix = '-'
