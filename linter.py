@@ -16,8 +16,11 @@ from SublimeLinter.lint import NodeLinter
 class RamlCop(NodeLinter):
 
     """Provides an interface to raml-cop."""
+    defaults = {
+        "selector": "source.RAML"
+    }
 
-    syntax = 'raml'
+    # syntax = 'raml'
     cmd = 'raml-cop --no-color --no-includes'
     version_requirement = '>= 5.0.0'
     regex = (
