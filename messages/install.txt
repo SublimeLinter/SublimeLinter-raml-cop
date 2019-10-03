@@ -1,10 +1,7 @@
-SublimeLinter-contrib-raml-cop
+SublimeLinter-raml-cop
 -------------------------------
 This linter plugin for SublimeLinter provides an interface to raml-cop.
 
-** IMPORTANT! **
+Please read the installation instructions at:
 
-Before this plugin will activate, you *must*
-follow the installation instructions here:
-
-https://github.com/thebinarypenguin/SublimeLinter-contrib-raml-cop
+https://github.com/SublimeLinter/SublimeLinter-raml-cop
